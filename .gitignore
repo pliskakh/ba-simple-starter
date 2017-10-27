@@ -1,0 +1,9 @@
+.idea/
+node_modules
+.sublime-gulp.cache
+gulpfile.js
+package.json
+*.exe
+*.cfg
+.DS_Store
+._.DS_Store
