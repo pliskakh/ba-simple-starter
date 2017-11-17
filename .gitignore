@@ -1,6 +1,8 @@
 .idea/
+.idea/
 node_modules
 .sublime-gulp.cache
+sftp-config.json
 gulpfile.js
 package.json
 *.exe
