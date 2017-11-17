@@ -1,5 +1,9 @@
-body{
+:root {
+	--bg-color: #ccc;
+}
 
+body{
+	background-color: var(--bg-color);
 }
 
 /* Layout */
