@@ -9,3 +9,6 @@ package.json
 *.cfg
 .DS_Store
 ._.DS_Store
+prepros-*.config
+.vscode
+
