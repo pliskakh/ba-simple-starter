@@ -1,41 +1,55 @@
-@import 'normalize';
-@import 'layout';
-
+@import '_layout/_normalize';
+@import '_fonts';
+@import '_variables';
+@import '_layout/_layout';
 
 :root {
-	--bg-color: #ccc;
+    --bg-color: #ccc;
 }
 
-body{
-	background-color: var(--bg-color);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
 }
+
+body {
+    background-color: var(--bg-color);
+}
+
 
 /* Layout */
-.ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
-	max-width: 1200px;
+
+.ba-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
 }
 
+
 /* Typography */
+
 a,
 input[type="submit"],
 input[type="button"],
-button{
-	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+button {
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
+
 input[type="submit"],
 input[type="button"],
 button,
-.ba-button{
-	display: inline-block;
+.ba-button {
+    display: inline-block;
 }
+
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover,
-.ba-button:hover{
-
-}
+.ba-button:hover {}
 
 input[type="text"],
 input[type="email"],
@@ -44,7 +58,7 @@ input[type="number"],
 input[type="tel"],
 textarea,
 select {
-	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
 
 input[type="text"]:focus,
@@ -53,9 +67,6 @@ input[type="password"]:focus,
 input[type="number"]:focus,
 input[type="tel"]:focus,
 textarea:focus,
-select:focus {
+select:focus {}
 
-}
-textarea {
-
-}
+textarea {}
